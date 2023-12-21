@@ -1,0 +1,85 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color:#2E2F42;
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    
+    li{
+    list-style-type: none;
+    }
+    /* HEADER */
+    .logo{
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    .logo-word{
+      color:#4D5AE5;
+    }
+    
+    .header-nav{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px
+    }
+    
+    .address .address-link{
+        color:#434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    
+    /* HERO */
+    .hero{
+    background-color: #2E2F42;
+    }
+    
+    .hero-title{
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07; 
+    letter-spacing: 1.12px;
+    }
+    
+    .hero-btn{
+    color: #FFF;
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    }
+    
+    /* ADVANTAGES */
+    .advantages-title {
+        
+    }
+    .advantages-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+    }
+    
+    .advantages-name-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+    
+    
+    /* TEAM */
+    
+    

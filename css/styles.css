@@ -74,9 +74,7 @@ body{
     .hero-btn{
     font-family: 'Roboto', sans-serif;
     color: #FFF;
-    border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -90,8 +88,9 @@ body{
 
     /* ADVANTAGES */
     .visually-hidden {
-                width: 1px;
-        height: 1px;
+        /* position: absolute;
+        width: 1px;
+        height: 1px; */
         margin: -1px;
         border: 0;
         padding: 0;

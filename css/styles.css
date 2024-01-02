@@ -32,6 +32,16 @@ body{
     .logo .logo-word:hover{
         color: #404BBF;
     }
+    .header-nav-exclussion{
+    color: #2e2f42;
+   font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+    }
+    .header-nav-exclussion:hover{
+    color:#404bbf;
+    }
     .header-nav{
     font-size: 16px;
     font-weight: 500;
@@ -41,10 +51,11 @@ body{
     .header-nav:hover{
     color: #404BBF;
     }
-
+.address{
+    font-style:normal;
+}
     .address .address-link{
         color:#434455;
-        font-style:normal;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -69,7 +80,7 @@ body{
     }
     
     .hero-btn{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
     border-radius: 4px;
     background: var(--IRIS, #4D5AE5);
@@ -101,6 +112,7 @@ body{
       }
 
     .advantages-name {
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; 
@@ -153,24 +165,49 @@ text-transform: capitalize;
      {
     }
 
-
-    /* FOOTER */
-    .footer {
-    background-color: #2E2F42;
-    }
-   .logo-footer{
-    color:#F4F4FD;
-    text-transform: uppercase;
-   }    
-    
-    .footer-resume {
-color: #F4F4FD;
-font-size: 16px;
+                    /* PORTFOLIO */
+.portfolio {
+}
+.portfolio-title {
+color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.portfolio-box {
+}
+.portfolio-box-img {
+}
+.portfolio-box-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;
+}
+.portfolio-box-text {
+    color: #434455;
+    font-size: 16px;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 }
-.footer .logo-footer{
+    /* FOOTER */
+    .footer {
+    background-color: #2E2F42;
+    }
+   .footer-resume {
+    color: #F4F4FD;
+   font-size: 16px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+
+}
+.logo-footer{
 color: #4D5AE5;
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
@@ -181,4 +218,5 @@ text-transform: uppercase;
 }   
 .footer .logo-word{
     color: #F4F4FD;
+    text-transform: uppercase;
 }

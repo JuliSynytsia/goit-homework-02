@@ -32,23 +32,15 @@ body{
     .logo .logo-word:hover{
         color: #404BBF;
     }
-    .header-nav-exclussion{
-    color: #2e2f42;
-   font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-    }
-    .header-nav-exclussion:hover{
-    color:#404bbf;
-    }
+    
     .header-nav{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em
     }
-    .header-nav:hover{
+    .header-nav:hover,
+    .header-nav:focus {
     color: #404BBF;
     }
 .address{

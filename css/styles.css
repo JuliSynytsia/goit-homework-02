@@ -88,7 +88,7 @@ body{
     }
 
     /* ADVANTAGES */
-    .visually-hidden {
+    /* .visually-hidden {
         
         margin: -1px;
        
@@ -98,7 +98,7 @@ body{
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
-      }
+      } */
 
     .advantages-name {
     color: #2E2F42;
